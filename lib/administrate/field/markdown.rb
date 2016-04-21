@@ -5,7 +5,7 @@ require "kramdown"
 module Administrate
   module Field
     class Markdown < Administrate::Field::Base
-      VERSION = "0.0.1"
+      VERSION = "0.0.2"
 
       class Engine < ::Rails::Engine
       end
